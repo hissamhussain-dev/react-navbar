@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.nav
+{
+    width: 70%;
+    margin: 0px 15% 0px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navitems
+{
+    width: 40%;
+    height: 10vmin;
+    color: white;
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .nav{
+        width: 90%;
+        margin: 0px 5% 0px 5%;
+            
+    }
+    .navitems{
+        width: 60%;
+        font-size: x-small;
+    }
+    
+}

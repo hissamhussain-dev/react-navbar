@@ -1,0 +1,15 @@
+.loginbutton
+{
+    width: 10vmin;
+    height: 4vmin;
+    background-color: white;
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .loginbutton{
+        width: 15vmin;
+        height: 5vmin;
+    }
+    
+}
